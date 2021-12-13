@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 1500px;
+    height: 455px;
+    border: 2px solid black;
+    margin: 0 auto;
+    top : 150px;
+    position: relative;
+    background-color: skyblue;
+    overflow: hidden;
+}
+
+#hikingMan {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    /* background-color: yellow; */
+    
+}
+
+#layerZero {
+    background-image:url("images/layer_0.png");
+    width : 1900px;
+    height: 455px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    /* z-index: 0; */
+}
+
+
+#layerOne {
+    background-image:url("images/layer_1.png");
+    width : 1900px;
+    height: 455px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    /* z-index: 1; */
+}
+
+#layerTwo {
+    background-image:url("images/layer_2.png");
+    width : 1900px;
+    height: 455px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#layerThree {
+    background-image:url("images/layer_3.png");
+    width : 1900px;
+    height: 455px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    /* z-index: 3; */
+}
+
+#layerFour {
+    background-image:url("images/layer_4.png");
+    width : 1900px;
+    height: 455px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    /* z-index: 4; */
+}
+
+#layerFive {
+    background-image:url("images/layer_5.png");
+    width : 1900px;
+    height: 455px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    /* z-index: 5; */
+}
+
+#layerSix {
+    background-image:url("images/layer_6.png");
+    width : 1900px;
+    height: 455px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    /* z-index: 6; */
+}
